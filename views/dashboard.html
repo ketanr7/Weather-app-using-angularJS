@@ -1,0 +1,584 @@
+<style type="text/css">
+.main-container {
+    /*width: 1280px;
+            height: 1594px;*/
+    /*background-color: #f9f9f9;*/
+    /* background: url("./8.jpg") no-repeat fixed center;*/
+}
+
+.heading {
+    /*width: 1280px;*/
+    height: 66px;
+    background-color: transparent;
+}
+
+.logo {
+    text-align: center;
+    padding: 23px;
+}
+
+.logo h1 {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    color: #ffffff;
+}
+
+.dashContainer,
+.icon {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.dashContainer h3 {
+    /*width: 80px;*/
+    height: 14px;
+    /* font-family: Dubai;*/
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b1b4b6;
+    display: inline-block;
+}
+
+.dashContent {
+    padding: 20px 0px;
+}
+
+.fa-bars {
+    font-size: 18px;
+    color: #ffffff;
+    padding: 23px 0px;
+}
+
+.menu {
+    border: solid 0.9px #d7d7d7;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+.menu h4 {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.02;
+    letter-spacing: normal;
+    text-align: left !important;
+    color: #143f69;
+    margin: 0px;
+    display: inline-block;
+}
+
+.menu img {
+    width: 20px;
+    height: 20px;
+}
+
+.menuElement {
+    height: 62px;
+    padding: 18px;
+}
+
+.menuElement h4 {
+    margin-left: 15px;
+    word-wrap: break-word;
+}
+
+.menuFirstEle {
+    background-color: #f58220;
+}
+
+.menuFirstEle h4 {
+    color: #ffffff;
+}
+
+.menuDiv {
+    text-align: left;
+}
+
+.badge-dark {
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.downArrow {
+    float: right;
+    margin: 8px 0px;
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #f58220;
+    float: right;
+    border-color: #f58220;
+}
+
+.info {
+    border-radius: 3px;
+    z-index: 1;
+    border: solid 0.9px #d7d7d7;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.tableHeading {
+    padding: 18px 0px;
+    border-radius: 3px;
+    background-color: #f1f1f1;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.06;
+    letter-spacing: normal;
+    text-align: left;
+    color: #143f69;
+}
+
+.cardRow {
+    margin: 30px 50px;
+    background-color: #ffffff !important;
+}
+
+.cardInfo {
+    background-color: #ffffff;
+    border: solid 1px #dadada;
+    padding: 15px;
+}
+
+.cardInfo h5 {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+}
+
+.cardInfo p {
+    font-size: 36px;
+    font-weight: 300;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+}
+
+.lastCard {
+    border-bottom: solid 5px #e54256;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.08);
+}
+
+.lastCard h5 {
+    color: #333333;
+}
+
+.lastCard p {
+    color: #e54256;
+}
+
+.flexFilter {
+    border-radius: 3px;
+    border: solid 1px #d4d8df;
+    margin-right: 15px;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.d-flex .filterInfo {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.filterType {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999999;
+}
+
+.table {
+    margin: 15px 0px;
+}
+
+.table-bordered td,
+.table-bordered th {
+    border-top: 1px solid #e9ecef;
+    border-left: 0px solid #e9ecef;
+    border-right: 0px solid #e9ecef;
+}
+
+thead {
+    background-color: #f1f1f1;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+.text {
+    background-color: #46b7bc;
+    display: inline-block;
+    padding-left: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.9;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.arrow {
+    border-style: dashed;
+    border-color: transparent;
+    border-width: 0.1em;
+    display: -moz-inline-box;
+    display: inline-block;
+    font-size: 100px;
+    height: 0;
+    line-height: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 0;
+    background-color: #fff;
+    border-left-style: solid;
+    border-left-color: #46b7bc;
+    left: 0.2em;
+}
+
+.PriorityOne {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.RowHeading {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #143f69;
+}
+
+.ReadMore {
+    color: #66bec0;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.Desc {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+}
+
+.material-icons {
+    color: #656981;
+}
+
+.circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: solid 1px #a7a7a7;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loadMore {
+    border-top: 1px solid #dadada;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    color: #66bec0;
+}
+
+.navLink {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+}
+
+.activeLink {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: center;
+    color: #143f69;
+    border-bottom: 3px solid #143f69;
+}
+
+#lang {
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.userPhoto {
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    background-color: #ffffff;
+}
+
+.info:first-child {
+    margin-right: 20px;
+}
+
+#tableDiv .info {
+    width: 530px;
+    max-width: 3000px;
+    min-width: 100px;
+}
+
+.tableNav a {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.pendingTask span,
+.pendingTask i {
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+
+.pendingTask span {
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.taskPara {
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.27;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+}
+
+.btn-secondary {
+    border-radius: 2.7px;
+    background-color: #143f69;
+    font-family: Lato;
+    font-size: 14.2px;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #143f69;
+    border-radius: 2.7px;
+    border-color: #143f69;
+}
+
+.btn-dark {
+    border-radius: 2.7px;
+    border: solid 0.9px #143f69;
+    background-color: #ffffff;
+    color: #143f69;
+    font-size: 14.2px;
+}
+
+.btn-dark:hover {
+    background-color: #143f69;
+    color: #ffffff;
+}
+
+.dayInfo h5 {
+    text-align: center;
+}
+
+.dayInfo h6 {
+    text-align: center;
+}
+
+.daypara {
+    text-align: center;
+    margin: 5% auto;
+}
+
+sup {
+    top: -1.5em;
+    font-size: 100%;
+}
+
+.indexSignup {
+    background-color: #f58220;
+    color: #ffffff;
+    border-color: #f58220;
+    border-radius: 2.7px;
+    font-family: Lato;
+    margin-right: 3%;
+}
+
+.indexSignup:hover,
+.indexSignup:focus,
+.indexSignup:active {
+    background-color: transparent !important;
+    color: #f58220 !important;
+    border: 1px solid #f58220 !important;
+    border-radius: 2.7px !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .cardDiv {
+        display: inline-flex;
+
+        padding: 3% 15px;
+        border-bottom: 1px solid #dadada;
+        border-right: none !important;
+    }
+    .location {
+        font-size: 1rem !important;
+        margin-bottom: 0;
+    }
+    .card {
+        margin-top: 0 !important;
+    }
+    .dayInfo {
+        margin-top: 0 !important;
+    }
+    .dayInfo img {
+        height: 30px !important;
+    }
+    .daypara {
+        text-align: center;
+        margin: 2% auto;
+        font-size: 0.8rem;
+    }
+    .dayInfo h6 {
+
+        margin: 2.5% 0;
+        font-size: 0.8rem;
+    }
+    #celsius,
+    #fahrenheit {
+        cursor: pointer !important;
+    }
+}
+</style>
+<div class="container-fluid h-100 main-container">
+    <div class="row heading">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="d-flex bd-highlight mb-3" style="padding-top: 1%">
+                <div class="p-2 bd-highlight" style="cursor:pointer;" ui-sref="home">
+                    <div class="userPhoto"></div>
+                </div>
+                <div class="p-2 bd-highlight" style="color: #ffffff;cursor: pointer;" ui-sref="home">
+                    <h6 style="font-size: 14px;margin-bottom: .1rem" id="userInfo"></h6>
+                    <p style="font-size: 12px;" id="userEmail"></p>
+                </div>
+                <div class="ml-auto p-2 bd-highlight">
+                    <button type="button" class="btn btn-primary indexSignup" ui-sref="history">History</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 ">
+                <div class="card " style="margin-top: 10%;">
+                    <img class="card-img-top" src="http://cdn.playbuzz.com/cdn/e579e697-4409-4218-abc4-fad3d9bf2548/061cc48e-7a38-436f-8a62-74208b842f5f.jpg" alt="Card image cap">
+                    <div class="card-img-overlay" style="color: #ffffff;">
+                        <h1 class="card-title" id="temp" style="display: inline-block;font-size: 3rem;"></h1>&nbsp<span id="unit" style="display: none;"></span><sup><span id="celsius" style="cursor:pointer;" ng-click="toCelsius()">&#8451;</span>&nbsp|&nbsp<span id="fahrenheit" style="cursor:pointer;" ng-click="toFahrenheit()">&#8457;</span></sup>
+                        <p class="card-text" style="float: right;margin-top: 2%;"><span style="display: inherit;" id="date"></span><span id="time"></span></p>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-text location" style="border-bottom: 1px solid #dadada;
+    padding-bottom: 4%;"></h5>
+                        <div class="row dayInfo" style="margin-top: 5%;">
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 cardDiv" style="border-right: 1px solid #dadada;">
+                                <div style="text-align: center;"><img src="http://cdn.onlinewebfonts.com/svg/img_116176.png" height="50px" width="auto"></div>
+                                <p class="daypara">Humidity</p>
+                                <h6 id="humidity"></h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 cardDiv" style="border-right: 1px solid #dadada;">
+                                <div style="text-align: center;"><img src="https://cdn4.iconfinder.com/data/icons/vectory-weather-2/40/wind_5-512.png" height="50px" width="auto"></div>
+                                <p class="daypara">Wind</p>
+                                <h6 id="wind"></h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 cardDiv" style="border-right: 1px solid #dadada;">
+                                <div style="text-align: center;"><img src="https://png.icons8.com/ios/1600/atmospheric-pressure.png" height="50px" width="auto"></div>
+                                <p class="daypara">Pressure</p>
+                                <h6 id="pressure"></h6>
+                            </div>
+                            <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 cardDiv">
+                                <div style="text-align: center;"><img src="http://cdn.onlinewebfonts.com/svg/img_249186.png" height="50px" width="auto"></div>
+                                <p class="daypara">Cloud</p>
+                                <h6 id="conditions"></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

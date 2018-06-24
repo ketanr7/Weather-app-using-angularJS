@@ -1,0 +1,245 @@
+<style type="text/css">
+body,
+html {
+    height: 100%;
+    background-color: #f1f1f1;
+    font-family: Lato !important;
+}
+
+.formContainer {
+
+    text-align: center;
+}
+
+#signup .form-control {
+    border-radius: 0px;
+    margin-top: 5%;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: .575rem .75rem;
+    font-size: 14px;
+}
+
+#signup .form-control:focus {
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
+    border: 1px solid grey;
+}
+
+#signup h1 {
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    font-size: 30px;
+}
+
+#signup .btn-primary {
+    background-color: #f58220;
+    border-color: #f58220;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 0.6px;
+}
+
+#signup .form-check {
+    margin-top: 4%;
+}
+
+#signup .invalid-feedback {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+#signup .form-check-label {
+    font-size: 14px;
+}
+
+.signupBtn {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+
+.loginLink {
+    font-size: 13px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.indexSignup {
+    background-color: #f58220;
+    color: #ffffff;
+    border-color: #f58220;
+    border-radius: 2.7px;
+    font-family: Lato;
+    margin-right: 3%;
+}
+
+.indexSignup:hover,
+.indexSignup:focus,
+.indexSignup:active {
+    background-color: transparent !important;
+    color: #f58220 !important;
+    border: 1px solid #f58220 !important;
+    border-radius: 2.7px !important;
+    box-shadow: none !important;
+}
+
+.indexLogin {
+
+
+    border-radius: 2.7px;
+    background-color: transparent;
+    font-family: Lato;
+    border: 1px solid #f58220;
+    color: #f58220;
+}
+
+.indexLogin:hover,
+.indexLogin:focus,
+.indexLogin:active {
+
+    border-radius: 2.7px !important;
+    background-color: #f58220 !important;
+    font-family: Lato !important;
+    border: 1px solid #f58220 !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+}
+
+.mainRow {
+    background: url("https://wallpapercave.com/wp/NNo5yub.jpg") no-repeat fixed center;
+}
+
+#tagline {
+    margin-bottom: 5%;
+}
+
+#tagline * {
+    width: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 10px solid white;
+    font-family: Lato;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    font-size: 2.5rem;
+}
+
+#tagline h3 {
+
+    overflow: hidden;
+    -webkit-animation: header-small 4s steps(30),
+    caret 1s step-end 2s;
+    -moz-animation: header-small 4s steps(30),
+    caret 1s step-end 2s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+}
+
+#tagline h3:nth-child(2) {
+
+    visibility: hidden;
+    border-right: 10px solid #000000;
+    -webkit-animation: header-sub 4s steps(30),
+    caret 1s infinite;
+    -webkit-animation-delay: 3s;
+    -moz-animation: header-sub 4s steps(30),
+    caret 1s infinite;
+    -moz-animation-delay: 4s;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes header-small {
+    from {
+        width: 0;
+        visibility: visible;
+    }
+    to {
+        width: 100%;
+        visibility: visible;
+        border: none;
+    }
+}
+
+@-moz-keyframes header-small {
+    from {
+        width: 0;
+        visibility: visible;
+    }
+    to {
+        width: 100%;
+        visibility: visible;
+        border-right: 0px;
+    }
+}
+
+
+@-webkit-keyframes header-sub {
+    from {
+        width: 0;
+        visibility: visible;
+    }
+    to {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@-moz-keyframes header-sub {
+    from {
+        width: 0;
+        visibility: visible;
+    }
+    to {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+@-webkit-keyframes caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #ffffff
+    }
+}
+
+@-moz-keyframes caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: #ffffff
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    #tagline h3 {
+        font-size: 1.5rem;
+    }
+}
+</style>
+<div class="container-fluid h-100">
+    <div class="row h-100 justify-content-center align-items-center mainRow">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="col-xs-10 offset-xs-1 col-sm-10 offset-sm-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4 col-xl-4 offset-xl-4 formContainer">
+                <div id="tagline">
+                    <h3>Welcome to </h3>
+                    <h3>Local Weather App</h3>
+                </div>
+                <button type="button" class="btn btn-primary indexSignup" ui-sref="signup">Signup</button>
+                <button type="button" class="btn btn-primary indexLogin" ui-sref="login">Login</button>
+            </div>
+        </div>
+    </div>
+</div>
